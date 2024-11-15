@@ -1,0 +1,11 @@
+#root {
+  width: 100%; /* Ocupar toda a largura */
+  height: 100vh; /* Ocupar toda a altura da viewport */
+  margin: 0; /* Remover margens */
+  padding: 0; /* Remover espaçamentos internos */
+  display: flex; /* Flexbox para estrutura */
+  flex-direction: column; /* Garantir estrutura em coluna */
+  align-items: center; /* Centralizar conteúdo horizontalmente */
+  justify-content: flex-start; /* Começar do topo */
+  text-align: center; /* Centralizar textos */
+}
