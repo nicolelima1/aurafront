@@ -12,7 +12,6 @@
 }
 .imagemLogoBarra {
     height: 80%;
-    
     object-fit: contain;
     position: absolute;
     left: 50%;

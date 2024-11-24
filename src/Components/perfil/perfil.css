@@ -1,0 +1,31 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: white;
+  /* Define o fundo da página inteira */
+  min-height: 100vh;
+  background: rgb(255, 234, 234)
+  /* Garante que o fundo preencha toda a altura da tela */
+}
+
+/* Barra Superior */
+.barraSuperior {
+  width: 100%;
+  height: 10vh;
+  box-sizing: border-box;
+  background-color: pink;
+  display: flex;
+  align-items: center;
+  position: relative;
+  margin: 0;
+  padding: 0 20px;
+  justify-content: space-between;
+}
+.imagemLogoBarra {
+  height: 80%;
+  object-fit: contain;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+

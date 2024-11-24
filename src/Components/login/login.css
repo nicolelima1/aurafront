@@ -1,0 +1,63 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: white; /* Define o fundo da página inteira */
+    min-height: 100vh; /* Garante que o fundo preencha toda a altura da tela */
+  }
+  
+  /* Barra Superior */
+  .barra-superior {
+    width: 100%;
+    height: 10vh;
+    background-color: pink;
+    padding: 0 20px;
+    position: relative;
+  }
+  
+  .icon-arrow-left {
+    color: white;
+  }
+  
+  .imagem-logo-barra {
+    height: 80%;
+    object-fit: contain;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  
+  /* Formulário */
+  .fundo-cadastro {
+    width: 30vw;
+    height: auto;
+    background-color: pink;
+    margin-top: 10vh;
+    border-radius: 20px;
+    padding: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .imagem-logo {
+    width: 50%;
+    height: auto;
+  }
+  
+  .texto-login {
+    font-size: 18px;
+    color: #fff;
+  }
+  
+  /* Botão */
+  .btn-primary {
+    background-color: #ff66b2;
+    border-color: #ff66b2;
+  }
+  
+  .btn-primary:hover {
+    background-color: #ff3380;
+    border-color: #ff3380;
+  }
+  
+ 
+  
+  
